@@ -10,9 +10,7 @@
   width: 750px;
   height: 450px;
   overflow:hidden;
-   -webkit-box-shadow: 3px 4px 6px 0px rgba(137, 137, 137, 0.55);
--moz-box-shadow:    3px 4px 6px 0px rgba(137, 137, 137, 0.55);
-box-shadow:         3px 4px 6px 0px rgba(137, 137, 137, 0.55);
+  box-shadow:         3px 4px 6px 0px rgba(137, 137, 137, 0.55);
 }
 
 .model__info {
@@ -31,8 +29,6 @@ float: left;
 background: $white;
 width: 350px;
 height: 400px;
- -webkit-box-shadow: 3px 4px 6px 0px rgba(137, 137, 137, 0.55);
--moz-box-shadow:    3px 4px 6px 0px rgba(137, 137, 137, 0.55);
 box-shadow:         3px 4px 6px 0px rgba(137, 137, 137, 0.55);
 }
 
