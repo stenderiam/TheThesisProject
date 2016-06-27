@@ -1,0 +1,45 @@
+.menu {
+	text-align: right;
+	&__link-wrapper {
+		display: inline-block;
+		margin-left: 8px;
+	}
+	&__link {
+		text-decoration: none;
+		color: $font-style;		
+		position: relative;
+		transition: 0.5s color ease;
+		&:after {
+			content: ' ';
+			position: absolute;
+			width: 100%;
+			height: 1px;
+			background: $font-style;
+			left: 0;
+			bottom: -2px;
+			max-width: 0;
+			transition: 0.5s max-width ease 0.1s;
+		}
+		&:hover {
+			&:after {
+				max-width: 100px;
+				transition: 0.5s max-width ease 0s; 
+			}
+		}
+		&--active {
+			color: #bf360c;
+			&:after {
+				background: #bf360c;
+			}
+		}
+	}
+
+}
+.button {
+  color: $background_style; /* цвет текста */
+  text-decoration: none;
+  user-select: none;  
+  background: $font_style;  
+  padding: .3em 1em;  
+  outline: none;  
+}

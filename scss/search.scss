@@ -1,0 +1,33 @@
+
+.search_place{
+    margin-left:auto;
+    margin-right:auto;
+    width: 400px;
+}
+.container-1{
+  width: 800px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+   text-align: center;
+}
+
+.container-1 input#search{
+  width: 400px;
+  height: 40px;
+  background: #E6E6E6;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #848484;
+  padding-left: 45px;
+  border-radius: 5px;
+  transition: background .55s ease;
+}
+
+.container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background: white;
+    
+  }
+

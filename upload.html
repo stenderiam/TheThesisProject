@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+ </head>
+  <body>
+    <div id="root">
+        <form method="POST" enctype='multipart/form-data' action="/api/models">
+            <div>
+                Name
+                <input type="text" name="name">
+            </div>
+            <div>
+                Desc
+                <textarea name="desc" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                Image
+                <input type="file" id="image2" name="image2">
+                <input type="hidden" id="image" name="image">
+            </div>
+            <div>
+                Model
+                <input type="file" name="model">
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+        <img src="" id="img" alt="">
+    </div>
+    <script>
+        window.onload = function() {
+          document.getElementById('image2').addEventListener('change', function (evt) {
+            if (this.files && this.files[0]) {
+                var FR = new FileReader();
+                FR.onload = function(e) {
+                  document.getElementById("img").src = e.target.result;
+                  document.getElementById("image").value = e.target.result;
+                  document.getElementById("image2").value = '';
+                };
+                FR.readAsDataURL( this.files[0] );
+            }
+          });
+        };
+    </script>
+  </body>
+</html>

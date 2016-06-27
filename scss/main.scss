@@ -1,0 +1,127 @@
+@import 'variables';
+@import 'menu';
+@import 'header';
+@import 'ViewModel';
+@import 'addModel';
+@import 'search';
+
+
+body {
+
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  background: $background_style;
+}
+
+.viewer-object{
+display: block;
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+border: 0;
+}
+.clearfix {
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    // Fixes Opera/contenteditable bug:
+    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.header__search {
+  background: $font_style;
+  height: 250px;
+  width: 100%;
+    box-shadow: 0 30px 10px -30px #777;
+}
+ 
+.header__name {
+    color: $background_style;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    padding: 40px;
+}
+
+
+.most_popular {
+  color: $font_style;
+  font-family: $google_font;
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  background:#A5D6A7;
+  width: 345px !important;
+  height: 250px !important;
+  margin: 20px;
+  line-height: 300px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+          transition: all 0.5s ease;
+  a {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+}
+.flex-item:hover {
+    background: #786b59; /* Цвет фона под ссылкой */ 
+    transition: all 0.5s ease;
+   } 
+.footer {
+  background: $font_style;
+  height: 100px;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.hvr-box-shadow-outset {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  transition-duration: 0.5s;
+  transition-property: box-shadow;
+}
+.hvr-box-shadow-outset:hover, .hvr-box-shadow-outset:focus, .hvr-box-shadow-outset:active {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.pic_size {
+  width: 345px !important;
+  height: 250px !important;
+}
+

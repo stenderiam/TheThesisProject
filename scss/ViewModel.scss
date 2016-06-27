@@ -1,0 +1,108 @@
+.model {
+  max-width: 100%;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.model__view {
+  float: left;
+  background: black;
+  width: 750px;
+  height: 450px;
+  overflow:hidden;
+   -webkit-box-shadow: 3px 4px 6px 0px rgba(137, 137, 137, 0.55);
+-moz-box-shadow:    3px 4px 6px 0px rgba(137, 137, 137, 0.55);
+box-shadow:         3px 4px 6px 0px rgba(137, 137, 137, 0.55);
+}
+
+.model__info {
+ float: right;
+}
+
+.user__photo {
+background: green;
+width: 100px;
+height: 100px;
+overflow:hidden;
+float: left;	
+}
+
+.info__description{
+background: $white;
+width: 350px;
+height: 400px;
+ -webkit-box-shadow: 3px 4px 6px 0px rgba(137, 137, 137, 0.55);
+-moz-box-shadow:    3px 4px 6px 0px rgba(137, 137, 137, 0.55);
+box-shadow:         3px 4px 6px 0px rgba(137, 137, 137, 0.55);
+}
+
+.model__name {
+color: $font_style;
+font-size: 35px;
+font-family: $google_font;
+}
+
+.description__style {
+color: $font_style;
+font-size: 14px;
+font-family: $google_font;
+padding-top: 10px;
+line-height: 1.5;
+padding: 5px;
+}
+
+.user__name {
+float: right;
+color: #590018;
+font-size: 20px;
+font-family: $google_font;
+padding: 10px;
+padding-right: 50px;	
+}
+
+
+.user__follow {
+float: right;
+background: green;
+width: 100px;
+height: 40px;
+margin-right: 50px;
+}
+
+
+canvas {
+  width: 750px !important;
+  height: 450px!important;
+  
+}
+
+ .edit_btn {
+  width: 90px;
+  height: 40px;
+  border: none;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  background: $font_style;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+  
+ .delete_btn {
+  width: 90px;
+  height: 40px;
+  margin-left: 15px;
+  border: none;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  background: $font_style;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+ 
+ 

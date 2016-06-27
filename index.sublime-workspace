@@ -1,0 +1,269 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"class",
+				"className"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"image",
+				"image1"
+			],
+			[
+				"ima",
+				"image"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ilais/Desktop/vert dider ver2/index.html",
+		"/home/ilais/Desktop/vert dider ver2/blank-page.html",
+		"/home/ilais/Desktop/vert dider/index.html",
+		"/home/ilais/Downloads/second/index.html",
+		"/home/ilais/Desktop/vert dider/js/bootstrap.js",
+		"/home/ilais/Desktop/julias_homework/index.html",
+		"/home/ilais/Desktop/PromisingTitle/about.html",
+		"/home/ilais/Desktop/Untitled Document 2",
+		"/home/ilais/Desktop/PromisingTitle/tasks.html",
+		"/home/ilais/Desktop/PromisingTitle/task.html",
+		"/home/ilais/ex/containers/About.js",
+		"/home/ilais/ex/scss/aboutstyle.scss",
+		"/home/ilais/ex/components/Photo.js",
+		"/home/ilais/ex/components/Menu.js",
+		"/home/ilais/ex/containers/Home.js",
+		"/home/ilais/ex/components/Header.js",
+		"/home/ilais/ex/containers/Portfolio.js",
+		"/home/ilais/ex/scss/main.scss",
+		"/home/ilais/ex/scss/search.scss",
+		"/home/ilais/ex/scss/header.scss",
+		"/home/ilais/ex/gulpfile.js",
+		"/home/ilais/ex/index.html",
+		"/home/ilais/ex/index.js",
+		"/home/ilais/Desktop/Coursera - Free Online Courses From Top Universities | Coursera.html",
+		"/home/ilais/ex/routes.js",
+		"/home/ilais/ex/containers/App.js",
+		"/home/ilais/ex/containers/Login.js",
+		"/home/ilais/ex/scss/menu.scss",
+		"/home/ilais/ex/scss/variables.scss",
+		"/home/ilais/ex/containers/Root.js",
+		"/home/ilais/ex/containers/Root.dev.js",
+		"/home/ilais/ex/scss/header_search.scss",
+		"/home/ilais/ex/server.js",
+		"/home/ilais/ex/containers/Root.prod.js",
+		"/home/ilais/ex/containers/DevTools.js",
+		"/home/ilais/ex/constants/ActionTypes.js",
+		"/home/ilais/examples/ex/components/Photo.js",
+		"/home/ilais/ex/package.json",
+		"/home/ilais/redux/examples/todomvc/index.html",
+		"/home/ilais/Documents/textcircle_end_module_1/textcircle.js",
+		"/home/ilais/Documents/textcircle_end_module_1/textcircle.css",
+		"/home/ilais/Desktop/final_gallery/js/gallery.js",
+		"/home/ilais/Desktop/final_gallery/index.html",
+		"/home/ilais/Documents/final_gallery/js/gallery.js",
+		"/home/ilais/Desktop/final_gallery/js/Albums.js",
+		"/home/ilais/Documents/final_gallery/css/gallery.css",
+		"/home/ilais/Documents/Assignment/js/AnimalsData.js",
+		"/home/ilais/Documents/Assignment/index.html",
+		"/home/ilais/Documents/SelectImage/index.html",
+		"/home/ilais/Documents/final_gallery/index.html",
+		"/home/ilais/Documents/Assignment/js/assignment.js",
+		"/home/ilais/Documents/Image2Templates/index.html",
+		"/home/ilais/Documents/Image2Templates/work.html",
+		"/home/ilais/Documents/final_gallery/js/Albums.js",
+		"/home/ilais/Documents/final_gallery/js/AnimalsData.js",
+		"/home/ilais/Desktop/Assignment/AnimalsData.js",
+		"/home/ilais/Desktop/Assignment/index.html",
+		"/home/ilais/Desktop/Assignment/assignment.css",
+		"/home/ilais/Documents/final_gallery/index1.html",
+		"/home/ilais/Desktop/Untitled Document",
+		"/home/ilais/Desktop/Assignment/assignment.js",
+		"/home/ilais/Desktop/Assignment/css/assignment.css",
+		"/home/ilais/Desktop/erf.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"box",
+			"photo",
+			"tab",
+			"300px",
+			"}\n",
+			"thu",
+			"category",
+			"images",
+			"data",
+			"src",
+			"alb",
+			"album",
+			"current_album",
+			"galler",
+			"photo",
+			"albums",
+			"photos",
+			"galler",
+			"albums",
+			"Animals",
+			"@",
+			"index"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

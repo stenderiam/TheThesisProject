@@ -1,0 +1,12 @@
+ // Pure reducers of redux
+
+export const LOAD_MODELS = 'LOAD_MODELS';
+export const LOAD_MODELS_SUCCESS = 'LOAD_MODELS_SUCCESS';
+export const LOAD_MODELS_FAIL = 'LOAD_MODELS_FAIL';
+export const ADD_MODEL = 'ADD_MODEL';
+export const UPDATE_MODEL = 'UPDATE_MODEL';
+export const DELETE_MODEL = 'DELETE_MODEL';
+
+export const LOAD_ONEMODEL = 'LOAD_ONEMODEL';
+export const LOAD_ONEMODEL_SUCCESS = 'LOAD_LOAD_ONEMODEL_SUCCESS';
+export const LOAD_ONEMODEL_FAIL = 'LOAD_LOAD_ONEMODEL_FAIL';
