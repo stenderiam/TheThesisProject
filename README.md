@@ -8,7 +8,7 @@ How to start:
 The project was developed as a thesis, due of a big interest to the 3D graphics.
 For now, it has a version of v1.0 and the next one I'm planning to develop in the future. 
 
-I use such tools like: 
+I use such technologies like: 
 - Gulp;
 - React with Redux;
 - trying CSS with SASS (for now variables only);
